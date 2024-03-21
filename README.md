@@ -1,35 +1,28 @@
-# crapi
-## 提供 API 接口供开发者调用的平台，基于 Spring Boot 后端 + React 前端的 全栈微服务项目。​
-管理员可以接入并发布接口、统计分析各接口调用情况；用户可以注册登录并开通接口调用权限、浏览接口、在线调试，还能使用 客户端 SDK 轻松在代码中调用接口。
-## 前端​
-React 18​
+# SpringBoot 项目初始模板
 
-Ant Design Pro 5.x 脚手架​
+> by [程序员鱼皮知识星球](https://yupi.icu)
 
-Ant Design & Procomponents 组件库​
+Java SpringBoot 项目初始模板，整合了常用框架和示例代码，大家可以在此基础上快速开发自己的项目。
 
-Umi 4 前端框架​
+## 模板功能
 
-OpenAPI 前端代码生成​
+- Spring Boot 2.7.0（贼新）
+- Spring MVC
+- MySQL 驱动
+- MyBatis
+- MyBatis Plus
+- Spring Session Redis 分布式登录
+- Spring AOP
+- Apache Commons Lang3 工具类
+- Lombok 注解
+- Swagger + Knife4j 接口文档
+- Spring Boot 调试工具和项目处理器
+- 全局请求响应拦截器（记录日志）
+- 全局异常处理器
+- 自定义错误码
+- 封装通用响应类
+- 示例用户注册、登录、搜索功能
+- 示例单元测试类
+- 示例 SQL（用户表）
 
-数据可视化​
-​
-## 后端​
-Java Spring Boot 框架​
-
-MySQL 数据库​
-
-MyBatis-Plus 及 MyBatis X 自动生成​
-
-API 签名认证（Http 调用）​
-
-Spring Boot Starter（SDK 开发）​
-
-Dubbo 分布式（RPC、Nacos）​
-
-Spring Cloud Gateway 微服务网关​
-
-Swagger + Knife4j 接口文档生成​
-
-Hutool、Apache Common Utils、Gson 等工具库​
-​
+访问 localhost:7529/api/doc.html 就能在线调试接口了，不需要前端配合啦~
